@@ -45,7 +45,7 @@ function check_class(){
     var checker = Number(document.getElementById("consumption").value);
     var message = "";
 
-    if (isNaN(checker) || checker <= 0) {
+    if (isNaN(checker) || checker < 0) {
         message = "Please enter a valid number! (╥‸╥)";
     }
 
